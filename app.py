@@ -13,7 +13,7 @@ st_autorefresh(interval=60000, key="realtime_refresh")  # 每60秒自动刷新�
 # ----------------------------
 # 用户设置
 # ----------------------------
-API_KEY = "d0cd9phr01ql2j3cdddgd0cd9phr01ql2j3cdde0"  # ←←← 改成你自己的 Finnhub API Key
+API_KEY = "d0q0or1r01qmj4nhbb7gd0q0or1r01qmj4nhbb80"  # ←←← 改成你自己的 Finnhub API Key
 client = finnhub.Client(api_key=API_KEY)
 
 tickers = st.text_input("请输入股票代码（英文逗号分隔，例如 AAPL,TSLA,NVDA）", value="AAPL,TSLA,NVDA,AMZN,MSFT,META").upper()
