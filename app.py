@@ -1,4 +1,15 @@
+import streamlit as st
+import finnhub
+
+# 你的 Finnhub API key
+api_key = "d0q0or1r01qmj4nhbb7gd0q0or1r01qmj4nhbb80"
+
+# 初始化客户端
+client = finnhub.Client(api_key=api_key)
+
+# 测试数据是否能获取
 st.write(client.quote("AAPL"))
+
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 import finnhub
