@@ -1,5 +1,5 @@
 import streamlit as st
-import finnhub
+import finnhub-python
 import pandas as pd
 from streamlit_autorefresh import st_autorefresh
 
