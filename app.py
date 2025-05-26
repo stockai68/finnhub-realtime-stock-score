@@ -1,3 +1,4 @@
+st.write(client.quote("AAPL"))
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 import finnhub
