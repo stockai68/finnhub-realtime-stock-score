@@ -58,3 +58,5 @@ if rows:
                  use_container_width=True)
 else:
     st.warning("未获取到实时数据，请检查股票代码或稍后重试。")
+    # force redeploy
+
