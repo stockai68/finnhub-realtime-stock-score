@@ -7,7 +7,7 @@ import time
 st.set_page_config(page_title="纳斯达克AI评分仪表盘", layout="wide")
 
 # 📡 初始化客户端（API Key 记得替换）
-api_key = "d0q0or1r01qmj4nhbb7gd0q0or1r01qmj4nhbb80"
+api_key = "d0q13d1r01qmj4nhd6dgd0q13d1r01qmj4nhd6e0"
 client = finnhub.Client(api_key=api_key)
 
 # 🎯 打分模型
