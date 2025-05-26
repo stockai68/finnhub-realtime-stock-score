@@ -1,6 +1,6 @@
 import streamlit as st
 import finnhub
-
+st.set_page_config(page_title="纳斯达克AI评分仪表盘", layout="wide")
 # 你的 Finnhub API key
 api_key = "d0q0or1r01qmj4nhbb7gd0q0or1r01qmj4nhbb80"
 
@@ -19,7 +19,7 @@ import time
 # ----------------------------
 # 页面配置
 # ----------------------------
-st.set_page_config(page_title="纳斯达克AI评分仪表盘", layout="wide")
+
 st_autorefresh(interval=60000, key="realtime_refresh")  # 每60秒自动刷新一次页面
 
 # ----------------------------
